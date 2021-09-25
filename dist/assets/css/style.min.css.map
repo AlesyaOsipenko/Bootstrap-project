@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.scss"],"names":[],"mappings":"AAAA,OAAO,CAAC;EACJ,MAAM,EAAE,IAAI;EACZ,gBAAgB,EAAC,UAAU,GAE9B","file":"style.min.css","sourcesContent":[".my-row {\r\n    height: 30vh;\r\n    background-color:aquamarine;\r\n    \r\n}\r\n"]}
