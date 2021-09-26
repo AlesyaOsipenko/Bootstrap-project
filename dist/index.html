@@ -13,16 +13,57 @@
 
 <body>
 
-    <div class="container">
-        <div class="my-row align-items-center justify-content-center row no-gutters text-ligh">
-            <div class="col-3  bg-primary text-white ">1</div>
-            <div class="col-3  bg-warning offset-1  text-white ">Второй блок</div>
-            <div class="col-3  bg-info text-white m-l-2 order-first">Третий блок</div>
+    <header class="header container">
+        <div class="header__content no-gutters d-flex flex-row align-items-center justify-content-between">
+            <nav class="menu header__menu">
+                <ul class="menu__list text-secondary font-weight-normal d-flex flex-row">
+                    <li class="menu__item">
+                        <a class="menu__link" href="">Home</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="">Blog</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="">Features</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="">Pricing</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="">Documentation</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="right-block d-flex flex-row align-items-center ">
+                <div class="social header__social">
+                    <ul class="social__list">
+                        <li class="social__list-item">
+                            <a class="social__link" href=""><img
+                                    src="" alt=""></a>
+                        </li>
+                        <li class="social__list-item">
+                            <a class="social__link" href=""><img
+                                    src="" alt=""></a>
+                        </li>
+                        <li class="social__list-item">
+                            <a class="social__link" href=""><img
+                                    src="" alt=""></a>
+                        </li>
+                    </ul>
+                </div>
+    
+                <div class="d-flex no-gutters">
+                    <a class="header__btn btn text-primary" href="#">Get started</a>
+                </div>
+            </div>
 
         </div>
-    </div>
 
 
+
+
+    </header>
 
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
