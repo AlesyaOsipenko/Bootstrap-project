@@ -1,7 +1,12 @@
 .menu {
+
     &__list {
-        // gap: 2.6rem;
-        font-size: 12px;
-        font-family: "Quicksand-Regular.ttf";
+        margin-left: 73px;
+    }
+
+    &__link {
+        font-family: 'Quicksand', sans-serif;
+        @include text (12px, 500, 15px, #697CA6);
+        letter-spacing: 0.05em;
     }
 }

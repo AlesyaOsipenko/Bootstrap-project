@@ -349,18 +349,48 @@ template {
 [hidden] {
   display: none; }
 
-.header__btn {
+.header .header__container {
+  padding-top: 20px; }
+
+.header .header__logo {
+  width: 26px;
+  height: 26px;
+  background: #5E81FE;
+  border-radius: 50%; }
+
+.header .header__btn {
   font-size: 13px;
+  font-weight: 700;
+  line-height: 16px;
+  color: #3A79FF;
+  font-family: 'Quicksand', sans-serif;
   background-color: #D2E1FF;
   border-radius: 2px;
-  font-family: "Quicksand-Medium.ttf"; }
+  width: 113px;
+  height: 43px;
+  text-align: center;
+  outline: none; }
 
 .menu__list {
+  margin-left: 73px; }
+
+.menu__link {
+  font-family: 'Quicksand', sans-serif;
   font-size: 12px;
-  font-family: "Quicksand-Regular.ttf"; }
+  font-weight: 500;
+  line-height: 15px;
+  color: #697CA6;
+  letter-spacing: 0.05em; }
 
 .menu__list {
+  margin-left: 73px; }
+
+.menu__link {
+  font-family: 'Quicksand', sans-serif;
   font-size: 12px;
-  font-family: "Quicksand-Regular.ttf"; }
+  font-weight: 500;
+  line-height: 15px;
+  color: #697CA6;
+  letter-spacing: 0.05em; }
 
 /*# sourceMappingURL=style.min.css.map */
