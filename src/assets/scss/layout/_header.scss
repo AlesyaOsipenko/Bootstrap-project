@@ -20,6 +20,22 @@
             height: 43px;
             text-align: center;
             outline: none;
+            margin-left: 45px;
         }
+
+        &__social {
+                gap: 35px;
+        }
+
+        &__icon {
+            fill: #B6BAC7;
+            width: 19px;
+            height: 17px;
+        }
+        &__icon:hover {
+            fill: #3A79FF;
+        }
+
+
     }
 }

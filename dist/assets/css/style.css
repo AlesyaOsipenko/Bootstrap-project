@@ -446,7 +446,7 @@ template {
 }
 
 .customers__logos {
-    min-height: 145px;
+    padding: 58px 0 58px 0;
 }
 
 .customers__item {
@@ -455,4 +455,8 @@ template {
 
 .customers__item:hover {
     fill: #5982E7;
+}
+
+.customers__link {
+    text-align: center;
 }
