@@ -1,0 +1,22 @@
+.customers {
+
+    &__logos {
+        padding: 58px 0 58px 0;
+    }
+
+    &__item {
+    fill: #D6DAE5;
+        &:hover {
+            fill:#5982E7;
+        }
+    }
+
+    &__link { 
+        text-align: center;
+    }
+
+    // &__wrapper {
+    //     // padding: 58px 0 58px 0;
+    //     // border: 1px solid #D8E3FE;
+    // }
+}

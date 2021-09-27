@@ -13,43 +13,50 @@
 
 <body>
 
-    
+
     <header class="header">
+
         <div class="header__container container">
 
-            <nav class="navbar navbar-expand-lg align-items-center">
-                <a class="navbar-brand" href="#">
-                    <div class="header__logo"></div>
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light align-items-center">
+
+                <div class="container-fluid">
+
+                    <a class="navbar-brand" href="#">
+                        <div class="header__logo"></div>
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarScroll">
+
+                        <ul class="menu__list nav justify-content-center" style="--bs-scroll-height: 100px;">
+                            <li class="nav-item menu__item">
+                                <a class="nav-link menu__link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item menu__item">
+                                <a class="nav-link menu__link" href="#">Blog</a>
+                            </li>
+                            <li class="nav-item menu__item">
+                                <a class="nav-link menu__link" href="#">Features</a>
+                            </li>
+                            <li class="nav-item menu__item">
+                                <a class="nav-link menu__link" href="#" tabindex="-1" aria-disabled="true">Pricing</a>
+                            </li>
+                            <li class="nav-item menu__item">
+                                <a class="nav-link menu__link" href="#" tabindex="-1"
+                                    aria-disabled="true">Documentation</a>
+                            </li>
+                        </ul>
 
 
-        <!--list-->
-                <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
-                    <ul class="menu__list nav justify-content-center">
-                        <li class="menu__item nav-item">
-                            <a class="menu__link nav-link active text-primary" href="#">Home</a>
-                        </li>
-                        <li class="menu__item nav-item">
-                            <a class="menu__link nav-link" href="#">Blog</a>
-                        </li>
-                        <li class="menu__item nav-item">
-                            <a class="menu__link nav-link" href="#">Features</a>
-                        </li>
-                        <li class="menu__item nav-item">
-                            <a class="menu__link nav-link" href="#">Pricing</a>
-                        </li>
-                        <li class="menu__item nav-item">
-                            <a class="menu__link nav-link" href="#" tabindex="-1" aria-disabled="true" href="#">Documentation</a>
-                        </li>
-                    </ul>
-
-        <!--header__wrapper-->
-                    <div class="header__right-block d-flex justify-content-center align-items-center">
-<!-- 
-                        <ul class="header__social nav ">
+                        <form class="d-flex">
+                            <div class="header__right-block d-flex justify-content-center align-items-center">
+                                <!-- <ul class="header__social nav ">
                             <li>
                                 <a href="">
                                     <svg>
@@ -79,21 +86,59 @@
                                     <svg></svg>
                                 </a>
                             </li>
-                        </ul> -->
-
-                        <button type="button" class="header__btn btn">Get started</button>
+                        </ul>  -->
+                                <button type="button" class="header__btn btn">Get started</button>
+                            </div>
                     </div>
-
+                    </form>
                 </div>
-            </nav>
+        </div>
+        </nav>
         </div>
 
-    <section class="diagram">
+    </header>
 
+
+
+
+    <section class="diagram">
     </section>
 
 
-    </header>
+    <section class="customers container">
+        <div class="customers__logos">
+
+            <div class="customers__wrapper row d-flex justify-content-lg-center align-items-center ">
+
+                <a class="customers__link col-12 col-sm-6 col-md-4 col-lg-2">
+                    <svg width="116.59" height="29" class="customers__item">
+                        <use xlink:href="./assets/images/customers/sprite.svg#bitbucket" />
+                    </svg>
+                </a>
+                <a class="customers__link col-12 col-sm-6 col-md-4 col-lg-2">
+                    <svg width="116.58" height="24.29" class="customers__item">
+                        <use xlink:href="./assets/images/customers/sprite.svg#appleWatch" />
+                    </svg>
+                </a>
+                <a class="customers__link col-12 col-sm-6 col-md-4 col-lg-2">
+                    <svg width="116.58" height="22.37" class="customers__item">
+                        <use xlink:href="./assets/images/customers/sprite.svg#facebook" />
+                    </svg>
+                </a>
+                <a class="customers__link col-12 col-sm-6 col-md-4 col-lg-2">
+                    <svg width="116.57" height="24.07" class="customers__item">
+                        <use xlink:href="./assets/images/customers/sprite.svg#atlassian" />
+                    </svg>
+                </a>
+                <a class="customers__link col-12 col-sm-6 col-md-4 col-lg-2">
+                    <svg width="116.58" height="28.94" class="customers__item">
+                        <use xlink:href="./assets/images/customers/sprite.svg#audi" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
 
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
