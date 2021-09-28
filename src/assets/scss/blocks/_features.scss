@@ -1,0 +1,25 @@
+.features {
+    padding: 170px 0 170px 0;
+
+
+    &__subtitle {
+        @include text (10px, 500, 12px, #3D4F9F);
+        margin-bottom: 20px;
+    }
+
+    &__title {
+        @include text (24px, 500, 30px, #3D4F9F);
+        font-family: "Quicksand-Regular", sans-serif;
+        margin-bottom: 90px;
+    }
+
+    &__headline {
+    
+        @include text (14px, 400, 25px, #3D4F9F);
+        font-family: "OpenSans", sans-serif;
+
+
+
+    }
+
+}

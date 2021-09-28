@@ -2,7 +2,16 @@
     .header {
         &__container {
             padding-top: 20px;
+            padding-left: 0px;
+            padding-right: 0px;
             max-width: 1200px !important;
+            .navbar {
+                padding: 0px;
+            }
+        }
+
+        &__a {
+            margin-right: 0px;
         }
 
         &__logo {
