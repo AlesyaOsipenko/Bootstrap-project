@@ -4,6 +4,10 @@
         padding: 58px 0 58px 0;
     }
 
+    &__wrapper {
+        max-width: 945px;
+    }
+
     &__item {
     fill: #D6DAE5;
         &:hover {
@@ -11,12 +15,4 @@
         }
     }
 
-    &__link { 
-        text-align: center;
-    }
-
-    // &__wrapper {
-    //     // padding: 58px 0 58px 0;
-    //     // border: 1px solid #D8E3FE;
-    // }
 }

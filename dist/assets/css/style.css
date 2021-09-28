@@ -417,6 +417,19 @@ template {
     height: 43px;
     text-align: center;
     outline: none;
+    margin-left: 45px;
+}
+
+.header .header__social {
+    gap: 35px;
+}
+
+.header .header__icon {
+    fill: #B6BAC7;
+}
+
+.header .header__icon:hover {
+    fill: #3A79FF;
 }
 
 .menu__list {
@@ -459,4 +472,13 @@ template {
 
 .customers__link {
     text-align: center;
+}
+
+.plan__pic {
+    width: 653px;
+    height: 436px;
+}
+
+.plan__text {
+    max-width: 413px;
 }

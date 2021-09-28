@@ -2,7 +2,7 @@
     .header {
         &__container {
             padding-top: 20px;
-            max-width: 1205px !important;
+            max-width: 1200px !important;
         }
 
         &__logo {
@@ -21,6 +21,7 @@
             text-align: center;
             outline: none;
             margin-left: 45px;
+            
         }
 
         &__social {
@@ -29,9 +30,8 @@
 
         &__icon {
             fill: #B6BAC7;
-            width: 19px;
-            height: 17px;
         }
+        
         &__icon:hover {
             fill: #3A79FF;
         }
