@@ -1,3 +1,20 @@
+@font-face {
+  font-family: 'Roboto', sans-serif;
+  src: url("../../fonts/Roboto-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Quicksand', sans-serif;
+  src: url("../../fonts/Quicksand-Medium.ttf") format("truetype");
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Open Sans', sans-serif;
+  src: url("../../fonts/OpenSans-SemiBold.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap; }
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -480,15 +497,10 @@ template {
       font-weight: 500;
       color: #ADB4D2;
       border: 1px solid #AEAEBF; }
-  .plan__gallery {
-    position: relative; }
-  .plan__img {
-    position: absolute;
-    top: -240px;
-    left: -130px; }
 
 .features {
-  padding: 170px 0 170px 0; }
+  padding: 170px 0 170px 0;
+  background: url("../images/features/clouds.svg") no-repeat center; }
   .features__subtitle {
     font-size: 10px;
     font-weight: 500;
@@ -502,11 +514,59 @@ template {
     color: #3D4F9F;
     font-family: "Quicksand-Regular", sans-serif;
     margin-bottom: 90px; }
+  .features__inner {
+    margin-bottom: 90px; }
+  .features__img {
+    margin-bottom: 30px; }
   .features__headline {
     font-size: 14px;
     font-weight: 400;
     line-height: 25px;
     color: #3D4F9F;
-    font-family: "OpenSans", sans-serif; }
+    font-family: "OpenSans", sans-serif;
+    margin-bottom: 25px; }
+  .features__btn {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 16px;
+    font-family: 'Quicksand', sans-serif;
+    width: 113px;
+    height: 43px;
+    text-align: center;
+    border: none;
+    border-radius: 2px; }
+  .features__btn--blue {
+    background-color: #D2E1FF;
+    color: #3A79FF; }
+  .features__btn--red {
+    background-color: #FFD7D7;
+    color: #D43F3F; }
+  .features__btn-group {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 19px;
+    color: #ADB3CB; }
+  .features__span {
+    margin: 0 47px;
+    position: relative; }
+    .features__span::before {
+      content: "";
+      position: absolute;
+      width: 15px;
+      height: 0px;
+      right: 30px;
+      top: 9px;
+      border: 1px solid #DAE4FE; }
+    .features__span::after {
+      content: "";
+      position: absolute;
+      width: 15px;
+      height: 0px;
+      left: 30px;
+      top: 9px;
+      border: 1px solid #DAE4FE; }
+  .features__wrapper {
+    margin-bottom: 50px; }
 
 /*# sourceMappingURL=style.min.css.map */

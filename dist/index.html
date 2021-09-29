@@ -13,6 +13,7 @@
 
 <body>
 
+<!--header-->
 
     <header class="header">
         <div class="header__container container ">
@@ -91,6 +92,7 @@
     <section class="diagram">
     </section>
 
+    <!--customers-->
 
     <section class="customers">
 
@@ -151,6 +153,7 @@
     </section>
 
         
+    <!--зарефакторить картинку-->
 
     <section class="plan">
 
@@ -172,9 +175,8 @@
                     </div>
                     
         
-                    <div class="plan__gallery col-md-6">
-                            <img class="plan__img" src="./assets/images/plan/devices.png" alt="">
-                    </div>
+                            <!-- <img class="plan__img col-md-6" src="./assets/images/plan/devices.png" alt=""> -->
+                
     
     
             </div>
@@ -186,53 +188,63 @@
 
 
     <!-- features block -->
+
     <div class="features">
-        <div class="container text-center border border-dark bg-light">
-            <div class="row border border-primary">
-                <div class="col border border-danger">
+        <div class="container text-center">
+            <div class="row features__inner">
+                <div class="col">
                     <h2 class="features__subtitle">ABOUT US</h2>
                     <span class="features__title">Read about our app</span>
                 </div>
             </div>
-            <div class="row justify-content-center border border-primary">
-                <div class="col-7 col-sm-5 col-md-3 col-lg-2 border border-danger">
-                    <div class="img-shape rounded-circle">
+            
+            <div class="row justify-content-center features__wrapper">
+                <div class="col-7 col-sm-5 col-md-3 col-lg-2">
+                    <div class="img-shape rounded-circle features__img">
                         <img src="./assets/images/features/group 38.svg " alt="">
                     </div>
                     <h3 class="features__headline">Overview</h3>
-                    <p>Brute laoreet efficiendi id his, ea illum nonumes luptatum pro.</p>
+                    <p class="features__text">Brute laoreet efficiendi id his, ea illum nonumes luptatum pro.</p>
                 </div>
-                <div class="col-7 col-sm-5 col-md-3 col-lg-2 border border-danger">
-                    <div class="img-shape rounded-circle">
+                <div class="col-7 col-sm-5 col-md-3 col-lg-2">
+                    <div class="img-shape rounded-circle features__img">
                         <img src="./assets/images/features/group 39.svg" alt="">
                     </div>
                     <h3 class="features__headline">Files</h3>
-                    <p>No vim nulla vitae intellegat. Ei enim error ius, solet atomorum conceptam ex has.</p>
+                    <p class="features__text">No vim nulla vitae intellegat. Ei enim error ius, solet atomorum conceptam ex has.</p>
                 </div>
-                <div class="col-7 col-sm-5 col-md-3 col-lg-2 border border-danger">
-                    <div class="img-shape rounded-circle">
+                <div class="col-7 col-sm-5 col-md-3 col-lg-2">
+                    <div class="img-shape rounded-circle features__img">
                         <img src="./assets/images/features/group 40.svg" alt="">
                     </div>
                     <h3 class="features__headline">Meeting chats</h3>
-                    <p>Vim ne tacimates neglegentur. Erat diceret omittam at est.</p>
+                    <p class="features__text">Vim ne tacimates neglegentur. Erat diceret omittam at est.</p>
                 </div>
-                <div class="col-7 col-sm-5 col-md-3 col-lg-2 border border-danger">
-                    <div class="img-shape rounded-circle">
+                <div class="col-7 col-sm-5 col-md-3 col-lg-2">
+                    <div class="img-shape rounded-circle features__img">
                         <img src="./assets/images/features/group 41.svg" alt="">
                     </div>
                     <h3 class="features__headline">Save events</h3>
-                    <p>Nisl idque mel ea, nominati voluptatum.</p>
+                    <p class="features__text">Nisl idque mel ea, nominati voluptatum.</p>
                 </div>
             </div>
-            <div class="row justify-content-center border border-primary">
-                <div class="col col-md-4 border border-danger">
-                    <button class="features__btn features__btn--red btn-danger" type="button">Read more</button>
-                    <span>OR</span>
-                    <button class="features__btn features__btn--blue btn-primary" type="button">Get started</button>
+
+
+            <div class="row justify-content-center">
+                <div class="col col-md-4">
+                    <div class="btn-group features__btn-group align-items-center" role="group" aria-label="">
+                        <button class="features__btn features__btn--red btn btn-danger" type="button">Read more</button>
+                        <span class="features__span text-center">OR</span>
+                        <button class="features__btn features__btn--blue btn" type="button">Get started</button>
+                    </div>
+
                 </div>
             </div>
         </div>
     </div>
+
+
+
 
 
 

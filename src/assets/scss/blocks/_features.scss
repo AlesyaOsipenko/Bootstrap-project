@@ -1,5 +1,6 @@
 .features {
     padding: 170px 0 170px 0;
+    background: url("../images/features/clouds.svg") no-repeat center;
 
 
     &__subtitle {
@@ -13,13 +14,75 @@
         margin-bottom: 90px;
     }
 
+    &__inner {
+        margin-bottom: 90px;
+    }
+
+    &__img {
+        margin-bottom: 30px;
+    }
+
     &__headline {
     
         @include text (14px, 400, 25px, #3D4F9F);
         font-family: "OpenSans", sans-serif;
+        margin-bottom: 25px;
+    }
 
+    &__btn {
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 16px;
+        font-family: 'Quicksand', sans-serif;
+        width: 113px;
+        height: 43px;
+        text-align: center;
+        border: none;  
+        border-radius: 2px;
+    }
+
+    &__btn--blue {
+        background-color: #D2E1FF;
+        color: #3A79FF;
+    }
+
+    &__btn--red {
+        background-color:#FFD7D7;
+        color:#D43F3F;
+    }
+
+    &__btn-group {
+        font-family: 'Open Sans', sans-serif;
+        @include text (11px, 600, 19px, #ADB3CB);
+    }
+
+    &__span {
+        margin: 0 47px;
+        position: relative;
+            &::before {
+                content: "";
+                position: absolute;
+                width: 15px;
+                height: 0px;
+                right: 30px;
+                top: 9px;
+                border: 1px solid #DAE4FE;
+            }
+
+            &::after {
+                content: "";
+                position: absolute;
+                width: 15px;
+                height: 0px;
+                left: 30px;
+                top: 9px;
+                border: 1px solid #DAE4FE;
+            }
 
 
     }
 
+    &__wrapper {
+        margin-bottom: 50px;
+    }
 }
