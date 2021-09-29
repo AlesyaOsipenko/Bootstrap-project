@@ -583,18 +583,9 @@ template {
     border: 1px solid #AEAEBF;
 }
 
-.plan__gallery {
-    position: relative;
-}
-
-.plan__img {
-    position: absolute;
-    top: -240px;
-    left: -130px;
-}
-
 .features {
     padding: 170px 0 170px 0;
+    background: url("../images/features/clouds.svg") no-repeat center;
 }
 
 .features__subtitle {
@@ -635,29 +626,70 @@ template {
     font-size: 13px;
     font-weight: 700;
     line-height: 16px;
-    color: #3A79FF;
     font-family: 'Quicksand', sans-serif;
     width: 113px;
     height: 43px;
     text-align: center;
-    outline: none;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 13px;
-    font-weight: 700;
-    line-height: 16px;
-    border-radius: 2px;
     border: none;
-    width: 113px;
-    height: 43px;
-    text-align: center;
+    border-radius: 2px;
 }
 
-.features--red {
+.features__btn--blue {
+    background-color: #D2E1FF;
+    color: #3A79FF;
+}
+
+.features__btn--red {
     background-color: #FFD7D7;
     color: #D43F3F;
 }
 
-.features--blue {
-    background-color: #D2E1FF;
-    color: #3A79FF;
+.features__btn-group {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 19px;
+    color: #ADB3CB;
+}
+
+.features__span {
+    margin: 0 47px;
+    position: relative;
+}
+
+.features__span::before {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 0px;
+    right: 30px;
+    top: 9px;
+    border: 1px solid #DAE4FE;
+}
+
+.features__span::after {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 0px;
+    left: 30px;
+    top: 9px;
+    border: 1px solid #DAE4FE;
+}
+
+.features__wrapper {
+    margin-bottom: 50px;
+}
+
+.stats__customers {
+    background: linear-gradient(229.32deg, #6888FF 12.77%, #5E80FF 73.11%);
+}
+
+.stats__users {
+    background: linear-gradient(101.48deg, #E9EFFF 41.56%, #E0E9FF 81.53%);
+}
+
+.stats__img {
+    width: 65px;
+    height: 66px;
 }
