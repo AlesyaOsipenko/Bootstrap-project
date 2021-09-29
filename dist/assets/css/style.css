@@ -1,19 +1,19 @@
 @font-face {
     font-family: 'Roboto', sans-serif;
-    src: url("../../fonts/Roboto-Regular.ttf") format("truetype");
+    src: url("../fonts/Roboto-Regular.ttf") format("truetype");
     font-weight: 400;
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Quicksand', sans-serif;
-  src: url("../../fonts/Quicksand-Medium.ttf") format("truetype");
+  src: url("../fonts/Quicksand-Medium.ttf") format("truetype");
   font-display: swap;
 }
 
 @font-face {
     font-family: 'Open Sans', sans-serif;
-  src: url("../../fonts/OpenSans-SemiBold.ttf") format("truetype");
+  src: url("../fonts/OpenSans-SemiBold.ttf") format("truetype");
   font-weight: 500;
   font-display: swap;
 }
@@ -682,14 +682,53 @@ template {
 }
 
 .stats__customers {
+    padding: 65px 90px 65px 0;
     background: linear-gradient(229.32deg, #6888FF 12.77%, #5E80FF 73.11%);
+    color: #FFFFFF;
 }
 
 .stats__users {
     background: linear-gradient(101.48deg, #E9EFFF 41.56%, #E0E9FF 81.53%);
+    padding: 70px 0 62px 90px;
+    color: #5E80FF;
 }
 
 .stats__img {
+    margin-bottom: 25px;
+}
+
+.stats__img--left {
     width: 65px;
     height: 66px;
+}
+
+.stats__img--right {
+    width: 71px;
+    height: 63px;
+}
+
+.stats__number {
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 83px;
+    letter-spacing: 0.03em;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.stats__desc {
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 0.03em;
+    max-width: 260px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    margin-bottom: 0;
+}
+
+.stats__desc--left {
+    text-align: right;
+}
+
+.stats__desc--right {
+    text-align: left;
 }

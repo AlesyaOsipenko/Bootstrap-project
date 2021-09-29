@@ -26,6 +26,7 @@
 
     &__span {
         @include text (36px, 400, 45px, #3D4F9F);
+        font-family: 'Quicksand', sans-serif;
     }
 
     &__text {
@@ -52,12 +53,5 @@
             border: 1px solid #AEAEBF;
         }
     }
-
-
-    // &__img {
-    //     position: absolute;
-    //     // width: 653px;
-    //     // height: 436px;
-    // }
 
 }
