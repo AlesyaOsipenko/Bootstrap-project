@@ -436,6 +436,25 @@ template {
 .menu__item {
   padding-right: 26px; }
 
+.diagram__content {
+  padding-top: 90px; }
+
+.diagram__text {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 29px;
+  color: #8D96BD;
+  font-family: "Roboto";
+  max-width: 502px;
+  letter-spacing: 0.03em; }
+
+.diagram__title {
+  margin-bottom: 30px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 29px;
+  color: #8D96BD; }
+
 .customers__logos {
   padding: 58px 0 58px 0; }
 

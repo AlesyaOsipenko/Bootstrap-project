@@ -1,0 +1,20 @@
+.diagram {
+
+    &__content {
+        padding-top: 90px;
+    }
+
+    &__text {
+        @include text (15px, 400, 29px, #8D96BD);
+        font-family: ("Roboto");
+        max-width: 502px;
+        letter-spacing: 0.03em;
+    }
+
+    &__title {
+        margin-bottom: 30px;
+        @include text (15px, 400, 29px, #8D96BD);
+        
+    }
+
+}

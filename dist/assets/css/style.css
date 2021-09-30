@@ -1,19 +1,19 @@
 @font-face {
     font-family: 'Roboto', sans-serif;
-    src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+    src: url("./fonts/Roboto-Regular.ttf") format("truetype");
     font-weight: 400;
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Quicksand', sans-serif;
-  src: url("../fonts/Quicksand-Medium.ttf") format("truetype");
+  src: url("./fonts/Quicksand-Medium.ttf") format("truetype");
   font-display: swap;
 }
 
 @font-face {
     font-family: 'Open Sans', sans-serif;
-  src: url("../fonts/OpenSans-SemiBold.ttf") format("truetype");
+  src: url("./fonts/OpenSans-SemiBold.ttf") format("truetype");
   font-weight: 500;
   font-display: swap;
 }
@@ -551,6 +551,7 @@ template {
     font-weight: 400;
     line-height: 45px;
     color: #3D4F9F;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .plan__text {
