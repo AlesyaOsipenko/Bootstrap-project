@@ -498,6 +498,28 @@ template {
     padding-right: 26px;
 }
 
+.diagram__content {
+    padding-top: 90px;
+}
+
+.diagram__text {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 29px;
+    color: #8D96BD;
+    font-family: "Roboto";
+    max-width: 502px;
+    letter-spacing: 0.03em;
+}
+
+.diagram__title {
+    margin-bottom: 30px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 29px;
+    color: #8D96BD;
+}
+
 .customers__logos {
     padding: 58px 0 58px 0;
 }
@@ -531,7 +553,7 @@ template {
     font-weight: 500;
     line-height: 12px;
     color: #3D4F9F;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto';
     letter-spacing: 0.1em;
     text-transform: uppercase;
     margin-bottom: 27px;
@@ -542,7 +564,7 @@ template {
     font-weight: 500;
     line-height: 45px;
     color: #3D4F9F;
-    font-family: 'Quicksand-Medium', sans-serif;
+    font-family: 'Quicksand-Medium';
     margin-bottom: 27px;
 }
 
@@ -551,7 +573,7 @@ template {
     font-weight: 400;
     line-height: 45px;
     color: #3D4F9F;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Quicksand';
 }
 
 .plan__text {
@@ -561,7 +583,7 @@ template {
     line-height: 29px;
     color: #8D96BD;
     letter-spacing: 0.03em;
-    font-family: 'Roboto-Regular', sans-serif;
+    font-family: 'Roboto-Regular';
     margin-bottom: 47px;
 }
 
@@ -570,7 +592,7 @@ template {
     height: 43px;
     font-size: 13px;
     line-height: 16px;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Quicksand';
     border-radius: 2px;
 }
 
@@ -602,7 +624,7 @@ template {
     font-weight: 500;
     line-height: 30px;
     color: #3D4F9F;
-    font-family: "Quicksand-Regular", sans-serif;
+    font-family: "Quicksand-Regular";
     margin-bottom: 90px;
 }
 
@@ -619,7 +641,7 @@ template {
     font-weight: 400;
     line-height: 25px;
     color: #3D4F9F;
-    font-family: "OpenSans", sans-serif;
+    font-family: "OpenSans";
     margin-bottom: 25px;
 }
 
@@ -627,7 +649,7 @@ template {
     font-size: 13px;
     font-weight: 700;
     line-height: 16px;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Quicksand';
     width: 113px;
     height: 43px;
     text-align: center;
@@ -646,7 +668,7 @@ template {
 }
 
 .features__btn-group {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans';
     font-size: 11px;
     font-weight: 600;
     line-height: 19px;
@@ -713,11 +735,11 @@ template {
     font-weight: 400;
     line-height: 83px;
     letter-spacing: 0.03em;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Quicksand';
 }
 
 .stats__desc {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Quicksand';
     letter-spacing: 0.03em;
     max-width: 260px;
     font-size: 18px;

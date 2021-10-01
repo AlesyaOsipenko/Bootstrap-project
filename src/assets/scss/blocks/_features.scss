@@ -10,7 +10,7 @@
 
     &__title {
         @include text (24px, 500, 30px, #3D4F9F);
-        font-family: "Quicksand-Regular", sans-serif;
+        font-family: "Quicksand-Regular";
         margin-bottom: 90px;
     }
 
@@ -25,7 +25,7 @@
     &__headline {
     
         @include text (14px, 400, 25px, #3D4F9F);
-        font-family: "OpenSans", sans-serif;
+        font-family: "OpenSans";
         margin-bottom: 25px;
     }
 
@@ -33,7 +33,7 @@
         font-size: 13px;
         font-weight: 700;
         line-height: 16px;
-        font-family: 'Quicksand', sans-serif;
+        font-family: 'Quicksand';
         width: 113px;
         height: 43px;
         text-align: center;
@@ -52,7 +52,7 @@
     }
 
     &__btn-group {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Open Sans';
         @include text (11px, 600, 19px, #ADB3CB);
     }
 
@@ -83,6 +83,6 @@
     }
 
     &__wrapper {
-        margin-bottom: 50px;
+        margin-bottom: 66px;
     }
 }

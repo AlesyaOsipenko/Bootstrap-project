@@ -12,7 +12,7 @@
 
     &__subtitle {
         @include text (10px, 500, 12px, #3D4F9F);
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Roboto';
         letter-spacing: 0.1em;
         text-transform: uppercase;
         margin-bottom: 27px;
@@ -20,21 +20,21 @@
 
     &__title {
         @include text (36px, 500, 45px, #3D4F9F);
-        font-family: 'Quicksand-Medium', sans-serif;
+        font-family: 'Quicksand-Medium';
         margin-bottom: 27px
     }
 
     &__span {
         @include text (36px, 400, 45px, #3D4F9F);
-        font-family: 'Quicksand', sans-serif;
+        font-family: 'Quicksand';
     }
 
     &__text {
         max-width: 413px;
         @include text (15px, 400, 29px, #8D96BD);
         letter-spacing: 0.03em;
-        font-family: 'Roboto-Regular', sans-serif;
-        margin-bottom: 47px;
+        font-family: 'Roboto-Regular';
+        margin-bottom: 80px;
     }
 
     &__btn {
@@ -42,7 +42,7 @@
         height: 43px;
         font-size: 13px;
         line-height: 16px;
-        font-family: 'Quicksand', sans-serif;
+        font-family: 'Quicksand';
         border-radius: 2px;
         &--blue {
             font-weight: 700;
