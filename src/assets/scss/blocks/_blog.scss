@@ -1,0 +1,53 @@
+.blog {
+    padding-top: 50px;
+    background: #F5F8FF;
+    padding-bottom: 100px;
+
+&__inner {
+    
+    margin-bottom: 92px;
+}
+
+&__subtitle {
+
+@include text (10px, 500, 12px,#3D4F9F);
+font-family: 'Roboto';
+letter-spacing: 0.1em;
+text-transform: uppercase;
+// margin-bottom: 40px;
+
+}
+
+&__title {
+    @include text (24px, 500, 30px,#3D4F9F);
+    font-family: 'Quicksand';
+    text-align: center;
+}
+
+
+&__card {
+    background: #FFFFFF;
+    padding: 65px 0 65px 0;
+    
+}
+
+&__img {
+    display: grid;
+    grid-template-rows: 127px 127px;
+    grid-template-columns: 267px 138px;
+}
+
+&__pic {
+    width: 126.84px;
+    height: 126.58px;
+    width: 100%;
+}
+
+&__pic-left {
+    width: 267.32px;
+    grid-area: 1/1/3/2;
+    height: 267px;
+    
+}
+
+}
