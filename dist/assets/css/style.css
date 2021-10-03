@@ -778,9 +778,9 @@ template {
 }
 
 .blog {
-    padding-top: 50px;
+    padding: 105px;
+    padding-bottom: 210px;
     background: #F5F8FF;
-    padding-bottom: 100px;
 }
 
 .blog__inner {
@@ -795,6 +795,7 @@ template {
     font-family: 'Roboto';
     letter-spacing: 0.1em;
     text-transform: uppercase;
+    margin-bottom: 20px;
 }
 
 .blog__title {
@@ -872,7 +873,7 @@ template {
     font-weight: 400;
     line-height: 45px;
     color: #3D4F9F;
-    margin-bottom: 30px;
+    margin-bottom: 23px;
 }
 
 .blog__text {
@@ -882,7 +883,7 @@ template {
     line-height: 27px;
     color: #8D96BD;
     letter-spacing: 0.03em;
-    margin-bottom: 35px;
+    margin-bottom: 45px;
 }
 
 .blog__btn {
@@ -895,7 +896,6 @@ template {
 
 .blog__btn--blue {
     width: 113px;
-    margin-right: 8px;
     color: #3A79FF;
     background-color: #D2E1FF;
     border: none;

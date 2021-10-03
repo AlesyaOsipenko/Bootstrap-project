@@ -71,11 +71,9 @@ margin-bottom: 20px;
 
 
 &__heading {
-
 font-family: 'Quicksand';
 @include text (36px, 400, 45px,#3D4F9F);
 margin-bottom: 23px;
-
 }
 
 &__text {
@@ -102,5 +100,33 @@ margin-bottom: 45px;
         width: 211px;
     }
 }
+
+&__row-icon {
+    background-image: url(./../images/blog/left.svg);
+    width: 27px;
+    height: 19px;
+    &--right {
+        background-image: url(./../images/blog/right.svg);
+        width: 27px;
+        height: 19px;
+    }
+}
+&__row {
+    left: -95px;
+    &--right {
+        right: -95px;
+    }
+}
+    &__carousel {
+        bottom: -122px;
+    }
+    &__carousel li {
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background-color: #D1D6E3;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
 
 }
