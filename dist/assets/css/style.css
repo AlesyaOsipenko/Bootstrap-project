@@ -904,3 +904,36 @@ template {
 .blog__btn--white {
     width: 211px;
 }
+
+.blog__row-icon {
+    background-image: url(./../images/blog/left.svg);
+    width: 27px;
+    height: 19px;
+}
+
+.blog__row-icon--right {
+    background-image: url(./../images/blog/right.svg);
+    width: 27px;
+    height: 19px;
+}
+
+.blog__row {
+    left: -95px;
+}
+
+.blog__row--right {
+    right: -95px;
+}
+
+.blog__carousel {
+    bottom: -122px;
+}
+
+.blog__carousel li {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #D1D6E3;
+    margin-right: 5px;
+    margin-left: 5px;
+}
