@@ -776,3 +776,131 @@ template {
 .stats__desc--right {
     text-align: left;
 }
+
+.blog {
+    padding-top: 50px;
+    background: #F5F8FF;
+    padding-bottom: 100px;
+}
+
+.blog__inner {
+    margin-bottom: 92px;
+}
+
+.blog__subtitle {
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 12px;
+    color: #3D4F9F;
+    font-family: 'Roboto';
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.blog__title {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #3D4F9F;
+    font-family: 'Quicksand';
+    text-align: center;
+}
+
+.blog__card {
+    background: #FFFFFF;
+    border: 1px solid #D8E3FE;
+    box-shadow: 0px 15px 50px #EFF4FF;
+    max-width: 958px;
+    width: 100%;
+}
+
+.blog__wrapper {
+    padding: 63px 35px 63px 41px;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1220px) {
+    .blog__wrapper {
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+}
+
+.blog__list {
+    -webkit-column-gap: 12px;
+    -moz-column-gap: 12px;
+    column-gap: 12px;
+}
+
+.blog-img {
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.blog-img--big {
+    width: 267px;
+    height: 267px;
+}
+
+.blog-img--sm {
+    width: 127px;
+    height: 126px;
+}
+
+.blog-img--sm:first-child {
+    margin-bottom: 14px;
+}
+
+.blog-pic {
+    margin-right: 13px;
+}
+
+.blog__content {
+    max-width: 408px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-left: 70px;
+}
+
+.blog__heading {
+    font-family: 'Quicksand';
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 45px;
+    color: #3D4F9F;
+    margin-bottom: 30px;
+}
+
+.blog__text {
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #8D96BD;
+    letter-spacing: 0.03em;
+    margin-bottom: 35px;
+}
+
+.blog__btn {
+    font-size: 13px;
+    line-height: 16px;
+    border-radius: 2px;
+    font-family: 'Quicksand', sans-serif;
+    height: 43px;
+}
+
+.blog__btn--blue {
+    width: 113px;
+    margin-right: 8px;
+    color: #3A79FF;
+    background-color: #D2E1FF;
+    border: none;
+}
+
+.blog__btn--white {
+    width: 211px;
+}
