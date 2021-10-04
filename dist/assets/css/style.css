@@ -937,3 +937,65 @@ template {
     margin-right: 5px;
     margin-left: 5px;
 }
+
+.quotes {
+    padding-top: 109px;
+    padding-bottom: 180px;
+    background: linear-gradient(180deg, #EAF0FF 0%, #F6F9FF 100%);
+}
+
+.quotes__subtitle {
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 12px;
+    color: #3D4F9F;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-family: 'Roboto';
+}
+
+.quotes__title {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 45px;
+    color: #3D4F9F;
+    font-family: 'Quicksand';
+    margin-bottom: 15px;
+}
+
+.quotes__text {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 23px;
+    color: #A4ABC8;
+    letter-spacing: 0.03em;
+    font-family: 'Open Sans';
+    max-width: 323px;
+}
+
+.quotes__card {
+    background: #FFFFFF;
+    border: 1px solid #D8E3FE;
+    box-sizing: border-box;
+    box-shadow: 0px 5px 50px #F3F5FA;
+    padding: 35px 55px 42px 67px;
+    position: relative;
+}
+
+.quotes__comment {
+    max-width: 283px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #A4ABC8;
+    font-family: 'Roboto';
+}
+
+.quotes__client {
+    width: 62px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -18px;
+    left: 165px;
+}
