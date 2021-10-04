@@ -746,7 +746,7 @@ template {
 
 .quotes {
   padding-top: 109px;
-  padding-bottom: 180px;
+  padding-bottom: 125px;
   background: linear-gradient(180deg, #EAF0FF 0%, #F6F9FF 100%); }
   .quotes__subtitle {
     font-size: 10px;
@@ -790,7 +790,24 @@ template {
     width: 62px;
     border-radius: 50%;
     position: absolute;
-    bottom: -18px;
-    left: 165px; }
+    bottom: -33px;
+    left: 180px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    z-index: 1; }
+  .quotes__inner {
+    margin-right: 35px; }
+  .quotes__indicators li {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #D1D6E3;
+    margin-right: 8px;
+    margin-left: 8px; }
+  .quotes__indicators {
+    position: absolute;
+    bottom: -46px;
+    left: 20px; }
+  .quotes__carousel-inner {
+    height: 245px; }
 
 /*# sourceMappingURL=style.min.css.map */
