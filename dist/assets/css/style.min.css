@@ -39,7 +39,7 @@ button {
 button:hover {
   transform: translateY(5px);
   transition: .5s;
-  color: #0aa566;
+  color: #94b3ec;
   -webkit-transform: translateY(5px);
   -moz-transform: translateY(5px);
   -ms-transform: translateY(5px);
@@ -372,7 +372,7 @@ template {
   font-weight: 700;
   line-height: 16px;
   color: #3A79FF;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Quicksand';
   background-color: #D2E1FF;
   border-radius: 2px;
   width: 113px;
@@ -499,7 +499,7 @@ template {
     font-weight: 500;
     line-height: 45px;
     color: #3D4F9F;
-    font-family: 'Quicksand-Medium';
+    font-family: 'Quicksand';
     margin-bottom: 27px; }
   .plan__span {
     font-size: 36px;
@@ -514,8 +514,8 @@ template {
     line-height: 29px;
     color: #8D96BD;
     letter-spacing: 0.03em;
-    font-family: 'Roboto-Regular';
-    margin-bottom: 80px; }
+    font-family: 'Roboto';
+    margin-bottom: 55px; }
   .plan__btn {
     width: 130px;
     height: 43px;
@@ -538,13 +538,14 @@ template {
     font-weight: 500;
     line-height: 12px;
     color: #3D4F9F;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    font-family: 'Roboto'; }
   .features__title {
     font-size: 24px;
     font-weight: 500;
     line-height: 30px;
     color: #3D4F9F;
-    font-family: "Quicksand-Regular";
+    font-family: 'Quicksand';
     margin-bottom: 90px; }
   .features__inner {
     margin-bottom: 90px; }
@@ -554,9 +555,15 @@ template {
     font-size: 14px;
     font-weight: 400;
     line-height: 25px;
-    color: #3D4F9F;
-    font-family: "OpenSans";
+    color: #4074F8;
+    font-family: 'Open Sans';
     margin-bottom: 25px; }
+  .features__text {
+    font-family: 'Open Sans';
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 19px;
+    color: #ADB3CB; }
   .features__btn {
     font-size: 13px;
     font-weight: 700;
@@ -599,7 +606,7 @@ template {
       top: 9px;
       border: 1px solid #DAE4FE; }
   .features__wrapper {
-    margin-bottom: 66px; }
+    margin-bottom: 105px; }
 
 .stats__customers {
   padding: 65px 90px 65px 0;
@@ -713,7 +720,7 @@ template {
     font-size: 13px;
     line-height: 16px;
     border-radius: 2px;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Quicksand';
     height: 43px; }
     .blog__btn--blue {
       width: 113px;
@@ -809,5 +816,95 @@ template {
     left: 20px; }
   .quotes__carousel-inner {
     height: 245px; }
+
+.help {
+  padding: 175px 0; }
+  .help-title {
+    color: #3D4F9F;
+    margin-bottom: 68px; }
+  .help__text {
+    font-family: "RobotoMedium", sans-serif;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px; }
+  .help-title__slogan {
+    font-family: "QuicksandMedium", sans-serif;
+    font-size: 24px; }
+  .help__card {
+    border: none !important;
+    border-bottom: 1px solid #D8E3FE !important; }
+  .help__card-header {
+    background-color: transparent;
+    padding: 17px 17px 15px;
+    border: none !important; }
+  .help__card-title {
+    height: 45px;
+    display: flex;
+    align-items: center;
+    font-family: "QuicksandBold", sans-serif;
+    color: #495274;
+    font-size: 15px;
+    letter-spacing: .5px; }
+  .help .btn.focus, .help .btn:focus {
+    box-shadow: none; }
+  .help .help__card-btn {
+    height: 12px;
+    width: 20px;
+    background-repeat: no-repeat;
+    margin-right: 24px;
+    position: relative; }
+    .help .help__card-btn::before {
+      content: "";
+      background-image: url("./../images/help/arrow.svg");
+      position: absolute;
+      display: block;
+      transform: rotate(180deg);
+      bottom: 16px;
+      left: -10px;
+      width: 40px;
+      height: 11px;
+      background-position: center;
+      background-repeat: no-repeat; }
+  .help .help__card-btn.collapsed {
+    position: relative; }
+    .help .help__card-btn.collapsed::before {
+      position: absolute;
+      background-image: url("./../images/help/arrow-open.svg");
+      background-repeat: no-repeat;
+      background-position: center;
+      content: "";
+      display: block;
+      bottom: 16px;
+      left: -10px;
+      width: 40px;
+      height: 11px; }
+  .help .help__card-btn.collapsed + .help__card-title-text {
+    color: #8E96B7;
+    font-family: "QuicksandMedium", sans-serif; }
+  .help__card-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 16px 10px 50px 72px; }
+  .help__card-text {
+    font-family: "RobotoRegular", sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    color: #8D96BD;
+    line-height: 1.9;
+    margin-right: 60px; }
+  .help__card-body-btn {
+    height: 42px;
+    min-width: 195px;
+    background-color: #E8ECF4;
+    font-family: "QuicksandMedium", sans-serif;
+    font-size: 13px;
+    color: #7382A3;
+    border: none;
+    margin-top: 5px;
+    border-radius: 2px; }
+  .help__card-body-btn:focus {
+    outline: 1px solid transparent; }
 
 /*# sourceMappingURL=style.min.css.map */

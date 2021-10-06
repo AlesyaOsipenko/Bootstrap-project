@@ -6,11 +6,12 @@
     &__subtitle {
         @include text (10px, 500, 12px, #3D4F9F);
         margin-bottom: 20px;
+        font-family: 'Roboto';
     }
 
     &__title {
         @include text (24px, 500, 30px, #3D4F9F);
-        font-family: "Quicksand-Regular";
+        font-family: 'Quicksand';
         margin-bottom: 90px;
     }
 
@@ -24,9 +25,14 @@
 
     &__headline {
     
-        @include text (14px, 400, 25px, #3D4F9F);
-        font-family: "OpenSans";
+        @include text (14px, 400, 25px, #4074F8);
+        font-family: 'Open Sans';
         margin-bottom: 25px;
+    }
+
+    &__text {
+        font-family: 'Open Sans';
+        @include text (11px, 600, 19px, #ADB3CB);
     }
 
     &__btn {
@@ -83,6 +89,6 @@
     }
 
     &__wrapper {
-        margin-bottom: 66px;
+        margin-bottom: 105px;
     }
 }
