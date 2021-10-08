@@ -1,0 +1,27 @@
+.newsletter {
+
+    &__input {
+
+        background: #EFEFF7;
+        border-radius: 5px;
+        font-family: 'Quicksand';
+        @include text (13px, 500, 16px, #7A85AD);
+        width: 279px;
+        height: 59px;
+        border: none;
+        margin-right: 14px;
+
+        // display: flex;
+        // align-items: center;
+        // text-align: center;
+    }
+
+    &__btn {
+        width: 184px;
+        height: 59px;
+        font-family: 'Quicksand';
+        @include text (13px, 700, 16px, #FFFFFF);
+    }
+
+
+}
