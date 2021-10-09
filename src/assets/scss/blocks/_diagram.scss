@@ -3,6 +3,13 @@
     position: relative; ;
     padding-top: 28px;
 
+    button:active, button:focus {
+        outline: none;
+    }
+    button::-moz-focus-inner {
+        border: 0;
+    }
+
     &__item {
         padding-top: 62px;
         height: 540px;

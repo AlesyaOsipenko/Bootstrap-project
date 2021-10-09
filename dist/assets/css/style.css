@@ -1234,3 +1234,27 @@ template {
     color: #C7D3FF;
     font-family: 'Quicksand';
 }
+
+.newsletter__input {
+    background: #EFEFF7;
+    border-radius: 5px;
+    font-family: 'Quicksand';
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 16px;
+    color: #7A85AD;
+    width: 279px;
+    height: 59px;
+    border: none;
+    margin-right: 14px;
+}
+
+.newsletter__btn {
+    width: 184px;
+    height: 59px;
+    font-family: 'Quicksand';
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 16px;
+    color: #FFFFFF;
+}
