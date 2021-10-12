@@ -54,4 +54,17 @@
         }
     }
 
+    &__gallery {
+        position: relative;
+    }
+
+    &__img {
+        position: absolute;
+        top: -214px;
+        left: 18px;
+        @media screen and (max-width: 1380px) {
+            display: none;
+        }
+    }
+
 }

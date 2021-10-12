@@ -485,6 +485,14 @@ template {
     padding-top: 28px;
 }
 
+.diagram button:active, .diagram button:focus {
+    outline: none;
+}
+
+.diagram button::-moz-focus-inner {
+    border: 0;
+}
+
 .diagram__item {
     padding-top: 62px;
     height: 540px;
@@ -539,6 +547,28 @@ template {
     box-shadow: 0px 10px 50px rgba(201, 209, 231, 0.6);
     margin: 0 auto;
     background: #FFFFFF;
+}
+
+.diagram__main {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.diagram__point1, .diagram__point2, .diagram__point3, .diagram__point4 {
+    cursor: pointer;
+}
+
+.diagram__baloon1, .diagram__baloon2, .diagram__baloon3, .diagram__baloon4 {
+    opacity: 0;
+}
+
+.diagram__point1:hover + .diagram__baloon1,
+  .diagram__point2:hover + .diagram__baloon2,
+  .diagram__point3:hover + .diagram__baloon3,
+  .diagram__point4:hover + .diagram__baloon4 {
+    opacity: 1;
+    transition: 700ms;
 }
 
 .customers__logos {
@@ -625,6 +655,22 @@ template {
     font-weight: 500;
     color: #ADB4D2;
     border: 1px solid #AEAEBF;
+}
+
+.plan__gallery {
+    position: relative;
+}
+
+.plan__img {
+    position: absolute;
+    top: -214px;
+    left: 18px;
+}
+
+@media screen and (max-width: 1380px) {
+    .plan__img {
+        display: none;
+    }
 }
 
 .features {
@@ -948,7 +994,7 @@ template {
 }
 
 .quotes {
-    padding-top: 109px;
+    padding-top: 120px;
     padding-bottom: 125px;
     background: linear-gradient(180deg, #EAF0FF 0%, #F6F9FF 100%);
 }
@@ -1036,7 +1082,7 @@ template {
 }
 
 .help {
-    padding: 136px 0;
+    padding: 134px 0;
 }
 
 .help-title {
@@ -1235,6 +1281,12 @@ template {
     font-family: 'Quicksand';
 }
 
+.newsletter {
+    padding-top: 118px;
+    padding-bottom: 119px;
+    border-bottom: 1px solid #D8E3FE;
+}
+
 .newsletter__input {
     background: #EFEFF7;
     border-radius: 5px;
@@ -1243,10 +1295,19 @@ template {
     font-weight: 500;
     line-height: 16px;
     color: #7A85AD;
-    width: 279px;
+    width: 279px !important;
     height: 59px;
     border: none;
     margin-right: 14px;
+    padding-left: 25px;
+}
+
+.newsletter__input:active, .newsletter__input:focus {
+    outline: none;
+}
+
+.newsletter__input::-moz-focus-inner {
+    border: 0;
 }
 
 .newsletter__btn {
@@ -1257,4 +1318,82 @@ template {
     font-weight: 700;
     line-height: 16px;
     color: #FFFFFF;
+}
+
+.newsletter__title {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #3D4F9F;
+    font-family: 'Quicksand';
+    margin-bottom: 18px;
+}
+
+.newsletter__text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #8D96BD;
+    font-family: 'Roboto';
+    max-width: 330px;
+}
+
+.footer__container {
+    padding-top: 80px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    max-width: 1200px !important;
+}
+
+.footer__container .navbar {
+    padding: 0px;
+}
+
+.footer__a {
+    margin-right: 0px;
+}
+
+.footer__logo {
+    width: 26px;
+    height: 26px;
+    background: #5E81FE;
+    border-radius: 50%;
+}
+
+.footer__btn {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 16px;
+    color: #3A79FF;
+    font-family: 'Quicksand';
+    background-color: #D2E1FF;
+    border-radius: 2px;
+    width: 113px;
+    height: 43px;
+    text-align: center;
+    outline: none;
+    margin-left: 42px;
+}
+
+.footer__social {
+    gap: 35px;
+}
+
+.footer__icon {
+    fill: #B6BAC7;
+}
+
+.footer__icon:hover {
+    fill: #3A79FF;
+}
+
+.footer__copyright {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    color: #AEB8D0;
+    font-family: 'Quicksand';
+    margin-top: 28px;
+    margin-left: 100px;
 }
