@@ -398,11 +398,7 @@ template {
     padding-bottom: 20px;
     padding-left: 0px;
     padding-right: 0px;
-    max-width: 1200px !important;
-}
-
-.header .header__container .navbar {
-    padding: 0px;
+    max-width: 1255px !important;
 }
 
 .header .header__a {
@@ -482,7 +478,7 @@ template {
 .diagram {
     background: url("../images/diagram/clouds-left.svg") left no-repeat, url("../images/diagram/clouds-right.svg") right no-repeat, linear-gradient(180deg, #F4F7FF 0%, #F1F5FF 100%);
     position: relative;
-    padding-top: 28px;
+    padding-top: 12px;
 }
 
 .diagram button:active, .diagram button:focus {
@@ -491,11 +487,6 @@ template {
 
 .diagram button::-moz-focus-inner {
     border: 0;
-}
-
-.diagram__item {
-    padding-top: 62px;
-    height: 540px;
 }
 
 .diagram__indicators li {
@@ -512,25 +503,27 @@ template {
     line-height: 12px;
     color: #3D4F9F;
     font-family: 'Roboto';
+    letter-spacing: 0.1em;
+    margin-bottom: 16px;
+    padding-top: 13px;
 }
 
-.diagram__text {
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 29px;
-    color: #8D96BD;
-    font-family: 'Roboto';
-    max-width: 467px;
-    letter-spacing: 0.03em;
-    margin-bottom: 12px;
+.diagram__item {
+    padding-top: 45px;
+    height: 540px;
 }
 
 .diagram__title {
-    margin-bottom: 30px;
     font-size: 48px;
     font-weight: 300;
     line-height: 60px;
     color: #3D4F9F;
+    font-family: 'Quicksand';
+    margin-bottom: 28px;
+}
+
+.diagram__wrap {
+    position: static;
 }
 
 .diagram__span {
@@ -538,15 +531,27 @@ template {
     font-weight: 500;
     line-height: 60px;
     color: #3D4F9F;
+    font-family: 'Quicksand';
+}
+
+.diagram__text {
+    max-width: 502px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 29px;
+    color: #8D96BD;
+    font-family: 'Roboto';
+    letter-spacing: 0.03em;
 }
 
 .diagram__btn {
-    width: 52px;
-    height: 52px;
+    background: #FFFFFF;
     border-radius: 50%;
     box-shadow: 0px 10px 50px rgba(201, 209, 231, 0.6);
+    width: 52px;
+    height: 52px;
     margin: 0 auto;
-    background: #FFFFFF;
+    z-index: 3;
 }
 
 .diagram__main {
@@ -994,20 +999,19 @@ template {
 }
 
 .quotes {
-    padding-top: 120px;
-    padding-bottom: 125px;
+    padding-top: 109px;
+    padding-bottom: 138px;
     background: linear-gradient(180deg, #EAF0FF 0%, #F6F9FF 100%);
 }
 
 .quotes__subtitle {
+    font-family: 'Roboto';
     font-size: 10px;
     font-weight: 500;
     line-height: 12px;
     color: #3D4F9F;
     letter-spacing: 0.1em;
-    text-transform: uppercase;
-    margin-bottom: 30px;
-    font-family: 'Roboto';
+    margin-bottom: 31px;
 }
 
 .quotes__title {
@@ -1016,50 +1020,17 @@ template {
     line-height: 45px;
     color: #3D4F9F;
     font-family: 'Quicksand';
-    margin-bottom: 15px;
+    margin-bottom: 14px;
 }
 
 .quotes__text {
+    font-family: 'Open Sans';
     font-size: 12px;
     font-weight: 600;
-    line-height: 23px;
+    line-height: 22px;
     color: #A4ABC8;
     letter-spacing: 0.03em;
-    font-family: 'Open Sans';
     max-width: 323px;
-}
-
-.quotes__card {
-    background: #FFFFFF;
-    border: 1px solid #D8E3FE;
-    box-sizing: border-box;
-    box-shadow: 0px 5px 50px #F3F5FA;
-    padding: 35px 55px 42px 67px;
-    position: relative;
-}
-
-.quotes__comment {
-    max-width: 283px;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
-    color: #A4ABC8;
-    font-family: 'Roboto';
-}
-
-.quotes__client {
-    width: 62px;
-    border-radius: 50%;
-    position: absolute;
-    bottom: -33px;
-    left: 180px;
-    -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    z-index: 1;
-}
-
-.quotes__inner {
-    margin-right: 35px;
 }
 
 .quotes__indicators li {
@@ -1079,6 +1050,35 @@ template {
 
 .quotes__carousel-inner {
     height: 245px;
+}
+
+.quotes__card {
+    padding: 35px 55px 42px 67px;
+    background: #FFFFFF;
+    border: 1px solid #D8E3FE;
+    position: relative;
+}
+
+.quotes__comment {
+    max-width: 283px;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #676F95;
+    letter-spacing: 0.03em;
+}
+
+.quotes__img {
+    width: 62px;
+    height: 62px;
+    -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 50%;
+    position: absolute;
+    bottom: -33px;
+    left: 45%;
+    z-index: 1;
 }
 
 .help {
@@ -1212,7 +1212,7 @@ template {
 }
 
 .started {
-    padding-top: 92px;
+    padding-top: 89px;
     padding-bottom: 92px;
     background: url("../images/started/clouds.svg") no-repeat center, linear-gradient(229.32deg, #6888FF 12.77%, #5E80FF 73.11%);
 }
