@@ -4,13 +4,13 @@
 
 
     &__subtitle {
-        @include text (10px, 500, 12px, #3D4F9F);
+        @include text (10px, 500, 12px, $secondaryColor);
         margin-bottom: 20px;
         font-family: 'Roboto';
     }
 
     &__title {
-        @include text (24px, 500, 30px, #3D4F9F);
+        @include text (24px, 500, 30px, $secondaryColor);
         font-family: 'Quicksand';
         margin-bottom: 90px;
     }
@@ -32,8 +32,9 @@
 
     &__text {
         font-family: 'Open Sans';
-        @include text (11px, 600, 19px, #ADB3CB);
+        @include text (11px, 600, 19px, $addtextColor);
     }
+
 
     &__btn {
         font-size: 13px;
@@ -49,7 +50,7 @@
 
     &__btn--blue {
         background-color: #D2E1FF;
-        color: #3A79FF;
+        color: $accentColor;
     }
 
     &__btn--red {
@@ -59,7 +60,7 @@
 
     &__btn-group {
         font-family: 'Open Sans';
-        @include text (11px, 600, 19px, #ADB3CB);
+        @include text (11px, 600, 19px, $addtextColor);
     }
 
     &__span {
@@ -85,7 +86,9 @@
                 border: 1px solid #DAE4FE;
             }
 
-
+            @media screen and (max-width: 382px) {
+                display: none;
+            }
     }
 
     &__wrapper {

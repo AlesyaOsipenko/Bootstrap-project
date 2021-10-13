@@ -14,9 +14,6 @@
         border: none;
         margin-right: 14px;
         padding-left: 25px;
-        // display: flex;
-        // align-items: center;
-        // text-align: center;
     }
 
     &__input:active, &__input:focus {
@@ -27,6 +24,12 @@
         border: 0;
     }
 
+    &__inner {
+        @media screen and (max-width: 600px) {
+            text-align: center;
+        }
+    }
+
     &__btn {
         width: 184px;
         height: 59px;
@@ -35,16 +38,21 @@
     }
 
     &__title {
-        @include text (18px, 700, 22px, #3D4F9F); 
+        @include text (18px, 700, 22px, $secondaryColor); 
         font-family: 'Quicksand';
         margin-bottom: 18px;
     }
 
     &__text {
-        @include text (14px, 400, 27px, #8D96BD);
+        @include text (14px, 400, 27px, $textColor);
         font-family: 'Roboto'; 
         max-width: 330px;
     }
 
+    &__form {
+        @media screen and (max-width: 600px) {
+            justify-content: center;
+        }
+    }
 
 }

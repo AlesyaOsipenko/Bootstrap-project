@@ -662,7 +662,7 @@ template {
     border: 1px solid #AEAEBF;
 }
 
-.plan__gallery {
+.plan__shell {
     position: relative;
 }
 
@@ -1310,6 +1310,12 @@ template {
     border: 0;
 }
 
+@media screen and (max-width: 600px) {
+    .newsletter__inner {
+        text-align: center;
+    }
+}
+
 .newsletter__btn {
     width: 184px;
     height: 59px;
@@ -1318,6 +1324,12 @@ template {
     font-weight: 700;
     line-height: 16px;
     color: #FFFFFF;
+}
+
+@media screen and (max-width: 600px) {
+    .newsletter__btn {
+        text-align: center;
+    }
 }
 
 .newsletter__title {
@@ -1341,13 +1353,8 @@ template {
 .footer__container {
     padding-top: 80px;
     padding-bottom: 20px;
-    padding-left: 0px;
     padding-right: 0px;
     max-width: 1200px !important;
-}
-
-.footer__container .navbar {
-    padding: 0px;
 }
 
 .footer__a {
@@ -1395,5 +1402,5 @@ template {
     color: #AEB8D0;
     font-family: 'Quicksand';
     margin-top: 28px;
-    margin-left: 100px;
+    margin-left: 115px;
 }

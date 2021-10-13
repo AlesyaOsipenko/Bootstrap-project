@@ -9,7 +9,7 @@
 
 &__subtitle {
 
-@include text (10px, 500, 12px,#3D4F9F);
+@include text (10px, 500, 12px, $textColor);
 font-family: 'Roboto';
 letter-spacing: 0.1em;
 text-transform: uppercase;
@@ -18,7 +18,7 @@ margin-bottom: 20px;
 }
 
 &__title {
-    @include text (24px, 500, 30px,#3D4F9F);
+    @include text (24px, 500, 30px, $textColor);
     font-family: 'Quicksand';
     text-align: center;
 }
@@ -72,7 +72,7 @@ margin-bottom: 20px;
 
 &__heading {
 font-family: 'Quicksand';
-@include text (36px, 400, 45px,#3D4F9F);
+@include text (36px, 400, 45px,$textColor);
 margin-bottom: 23px;
 }
 

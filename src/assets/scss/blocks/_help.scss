@@ -3,7 +3,7 @@
     padding: 134px 0;
 
     &-title {
-        color: #3D4F9F;
+        color: $secondaryColor;
         padding-top: 38px;
         margin-bottom: 45px;
     }
@@ -100,7 +100,7 @@
         font-family: "RobotoRegular", sans-serif;
         font-size: 14px;
         letter-spacing: 0.5px;
-        color: #8D96BD;
+        color: $textColor;
         line-height: 1.9;
         margin-right: 60px;
     }

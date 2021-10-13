@@ -1,11 +1,8 @@
 .customers {
 
-    &__logos {
-        padding: 58px 0 58px 0;
-    }
-
     &__wrapper {
         max-width: 945px;
+        min-height: 145px;
     }
 
     &__item {
