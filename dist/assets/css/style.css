@@ -395,7 +395,6 @@ template {
 
 .header .header__container {
     padding-top: 18px;
-    padding-bottom: 20px;
     padding-left: 0px;
     padding-right: 0px;
     max-width: 1255px !important;
@@ -478,7 +477,7 @@ template {
 .diagram {
     background: url("../images/diagram/clouds-left.svg") left no-repeat, url("../images/diagram/clouds-right.svg") right no-repeat, linear-gradient(180deg, #F4F7FF 0%, #F1F5FF 100%);
     position: relative;
-    padding-top: 12px;
+    padding-top: 30px;
 }
 
 .diagram button:active, .diagram button:focus {
@@ -505,7 +504,7 @@ template {
     font-family: 'Roboto';
     letter-spacing: 0.1em;
     margin-bottom: 16px;
-    padding-top: 13px;
+    padding-top: 20px;
 }
 
 .diagram__item {
@@ -576,12 +575,9 @@ template {
     transition: 700ms;
 }
 
-.customers__logos {
-    padding: 58px 0 58px 0;
-}
-
 .customers__wrapper {
     max-width: 945px;
+    min-height: 145px;
 }
 
 .customers__item {
@@ -781,6 +777,12 @@ template {
     border: 1px solid #DAE4FE;
 }
 
+@media screen and (max-width: 382px) {
+    .features__span {
+        display: none;
+    }
+}
+
 .features__wrapper {
     margin-bottom: 105px;
 }
@@ -851,7 +853,7 @@ template {
     font-size: 10px;
     font-weight: 500;
     line-height: 12px;
-    color: #3D4F9F;
+    color: #8D96BD;
     font-family: 'Roboto';
     letter-spacing: 0.1em;
     text-transform: uppercase;
@@ -862,7 +864,7 @@ template {
     font-size: 24px;
     font-weight: 500;
     line-height: 30px;
-    color: #3D4F9F;
+    color: #8D96BD;
     font-family: 'Quicksand';
     text-align: center;
 }
@@ -932,7 +934,7 @@ template {
     font-size: 36px;
     font-weight: 400;
     line-height: 45px;
-    color: #3D4F9F;
+    color: #8D96BD;
     margin-bottom: 23px;
 }
 
@@ -1326,12 +1328,6 @@ template {
     color: #FFFFFF;
 }
 
-@media screen and (max-width: 600px) {
-    .newsletter__btn {
-        text-align: center;
-    }
-}
-
 .newsletter__title {
     font-size: 18px;
     font-weight: 700;
@@ -1348,6 +1344,13 @@ template {
     color: #8D96BD;
     font-family: 'Roboto';
     max-width: 330px;
+}
+
+@media screen and (max-width: 600px) {
+    .newsletter__form {
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
 }
 
 .footer__container {
@@ -1402,5 +1405,5 @@ template {
     color: #AEB8D0;
     font-family: 'Quicksand';
     margin-top: 28px;
-    margin-left: 115px;
+    padding-left: 93px;
 }
