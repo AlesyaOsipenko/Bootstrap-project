@@ -1081,6 +1081,10 @@ template {
   text-align: center;
   outline: none;
   margin-left: 42px; }
+  @media screen and (max-width: 427px) {
+    .footer__btn {
+      margin-left: 0;
+      margin-top: 25px; } }
 
 .footer__social {
   gap: 35px; }
@@ -1099,5 +1103,40 @@ template {
   font-family: 'Quicksand';
   margin-top: 28px;
   padding-left: 93px; }
+  @media screen and (max-width: 985px) {
+    .footer__copyright {
+      padding-left: 0; } }
+
+@media screen and (max-width: 992px) {
+  .footer__menu {
+    align-items: center;
+    justify-content: center;
+    margin-left: 0;
+    flex-direction: column;
+    margin-bottom: 40px; } }
+
+@media screen and (max-width: 992px) {
+  .footer__link {
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding-right: 0; } }
+
+@media screen and (max-width: 427px) {
+  .footer__right-block {
+    flex-wrap: wrap;
+    flex-direction: column; } }
+
+@media screen and (max-width: 985px) {
+  .footer__navbar {
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center !important;
+    align-items: center !important; } }
+
+@media screen and (max-width: 985px) {
+  .footer__bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center; } }
 
 /*# sourceMappingURL=style.min.css.map */
