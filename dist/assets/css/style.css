@@ -575,6 +575,10 @@ template {
     transition: 700ms;
 }
 
+.diagram__control {
+    width: 5%;
+}
+
 .customers__wrapper {
     max-width: 945px;
     min-height: 145px;

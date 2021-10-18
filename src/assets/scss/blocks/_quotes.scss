@@ -41,6 +41,9 @@
 
     &__carousel-inner {
         height: 245px;
+        @media screen and (max-width: 423px) {
+            height: 285px; 
+        }
     }
 
     &__card {
